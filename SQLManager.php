@@ -15,7 +15,6 @@
         public $db_password;
         public $db_name;
 
-        // 
         function connect(string $db_host, string $db_username, string $db_password, string $db_name){
             $this->db_host = $db_host;
             $this->db_username = $db_username;
@@ -76,7 +75,9 @@
             }            
 
             return $data;
-            
+
+            // Close mysql connection
+            mysqli_close($conn);
         }
     }
 ?>
