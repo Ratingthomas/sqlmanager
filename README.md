@@ -2,7 +2,7 @@
 SQLManager is a small script that lets you easily interact with your mysql database.
 
 ## Installation
-1. Download the latest release [here]() or from the [releases](https://github.com/Ratingthomas/sqlmanager/releases) page.
+1. Download the latest release [here](https://github.com/Ratingthomas/sqlmanager/releases/latest) or from the [releases](https://github.com/Ratingthomas/sqlmanager/releases) page.
 2. Put the script somewhere in your project.
 3. Add the following code:
 ```php
@@ -30,7 +30,7 @@ $sql->connect("db_name", "db_username", "db_password", "db_name");
 ### Get data from the dabatase
 Example 1
 ```php
-$result = $sql->query("SELECT * FROM users WHERE userid = ? AND user_type = ?", ['1', 'superadmin']);
+$result = $sql->query("SELECT * FROM users WHERE userid = ? AND user_type = ?", ['1', 'superadmin'], true);
 print_r($result);
 ```
 Example 2
@@ -38,6 +38,12 @@ Example 2
 $result = $sql->query("SELECT * FROM users", []);
 print_r($result);
 ```
+| Parrameter | Details                         | Example               | Type    | Required | Can be empty |
+|------------|---------------------------------|-----------------------|---------|----------|--------------|
+| query      | The sql query                   | `SELECT * FROM test;` | String  | true     | False        |
+| options    | If you have a where statement   | `[$param1, $param2]`  | Array   | true     | true         |
+| array_push | Make the array Multidimensional | `true`                | boolean | false    | true         |
+
 ### Get the connection info.
 ```php
 $sql->displayconnection()
