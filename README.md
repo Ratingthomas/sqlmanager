@@ -38,11 +38,12 @@ Example 2
 $result = $sql->query("SELECT * FROM users", []);
 print_r($result);
 ```
-| Parrameter | Details                         | Example               | Type    | Required | Can be empty |
-|------------|---------------------------------|-----------------------|---------|----------|--------------|
-| query      | The sql query                   | `SELECT * FROM test;` | String  | true     | False        |
-| options    | If you have a where statement   | `[$param1, $param2]`  | Array   | true     | true         |
-| array_push | Make the array Multidimensional | `true`                | boolean | false    | true         |
+| Parrameter | Details                                              | Example               | Type    | Required | Can be empty |
+|------------|------------------------------------------------------|-----------------------|---------|----------|--------------|
+| query      | The sql query                                        | `SELECT * FROM test;` | String  | true     | False        |
+| options    | If you have a where statement                        | `[$param1, $param2]`  | Array   | true     | true         |
+| array_push | Make the array Multidimensional                      | `true`                | boolean | false    | true         |
+| no_result | Set this to true if the sql query has no return falue | `true`                | boolean | false    | true         |
 
 ### Get the connection info.
 ```php
