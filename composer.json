@@ -20,5 +20,6 @@
         "psr-0": {
             "Ratingthomas": "src"
         }
-    }
+    },
+    "version": "1.2.0"
 }
