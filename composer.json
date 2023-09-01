@@ -1,0 +1,24 @@
+{
+    "name": "ratingthomas/sqlmanager",
+    "type": "library",
+    "description": "A small script that lets you easily interact with your mysql database",
+    "keywords": ["MYSQL","SQL", "mysql", "sql"],
+    "homepage": "https://github.com/Ratingthomas/sqlmanager",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Ratingthomas",
+            "email": "info@kruimeltaart.eu",
+            "homepage": "https://kruimeltaart.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ratingthomas": "src"
+        }
+    }
+}
