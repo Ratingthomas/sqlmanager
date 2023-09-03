@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Ratingthomas": "src/"
+            "Ratingthomas\\SQL": "src/"
         }
     },
     "version": "1.2.1"
