@@ -7,7 +7,7 @@
      * PLEASE USE WITH CREDIT!
      */
 
-    namespace Ratingthomas\SQL;
+    namespace Ratingthomas\SQLmanager;
 
     class SQL{
         public $db_host;

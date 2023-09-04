@@ -3,10 +3,9 @@
     "description": "A small script that lets you easily interact with your mysql database",
     "type": "library",
     "license": "AGPL-3.0-or-later",
-    "keywords": ["MYSQL","SQL", "mysql", "sql"],
     "autoload": {
         "psr-4": {
-            "Ratingthomas\\SQL\\": "src/"
+            "Ratingthomas\\SQLmanager\\": "src/"
         }
     },
     "authors": [
@@ -16,5 +15,5 @@
         }
     ],
     "require": {},
-    "version": "1.2.5"
+    "version": "1.2.6"
 }
