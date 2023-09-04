@@ -6,7 +6,7 @@
     "keywords": ["MYSQL","SQL", "mysql", "sql"],
     "autoload": {
         "psr-4": {
-            "Ratingthomas\\Sqlmanager\\": "src/"
+            "Ratingthomas\\SQL\\": "src/"
         }
     },
     "authors": [
@@ -16,5 +16,5 @@
         }
     ],
     "require": {},
-    "version": "1.2.4"
+    "version": "1.2.5"
 }
