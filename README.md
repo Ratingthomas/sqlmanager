@@ -1,6 +1,11 @@
 # SQLManager
 SQLManager is a small script that lets you easily interact with your mysql database.
 
+## Features
+- Easy to use
+- Secure (SQL Injection prevention)
+- Simple and fast
+
 ## Installation
 1. Download the latest release with composer or from the [releases](https://github.com/Ratingthomas/sqlmanager/releases) page.
 ```sh
