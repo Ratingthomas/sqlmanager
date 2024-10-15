@@ -1,10 +1,18 @@
 # SQLManager
 SQLManager is a small script that lets you easily interact with your mysql database.
 
+## Features
+- Easy to use
+- Secure (SQL Injection prevention)
+- Simple and fast
+
 ## Installation
-1. Download the latest release [here](https://github.com/Ratingthomas/sqlmanager/releases/latest) or from the [releases](https://github.com/Ratingthomas/sqlmanager/releases) page.
-2. Put the script somewhere in your project.
-3. Add the following code:
+1. Download the latest release with composer or from the [releases](https://github.com/Ratingthomas/sqlmanager/releases) page.
+```sh
+composer require ratingthomas/sqlmanager
+```
+3. Put the script somewhere in your project.
+4. Add the following code:
 ```php
 <?php
   include 'path/to/SQLManager.php';
