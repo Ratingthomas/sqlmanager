@@ -77,5 +77,8 @@ class SQL
             // Close mysql connection
             mysqli_close($conn);
         }
+        else{
+            return $stmt->insert_id;
+        }
     }
 }

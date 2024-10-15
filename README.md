@@ -8,7 +8,7 @@ SQLManager is a small script that lets you easily interact with your mysql datab
 ```php
 <?php
   include 'path/to/SQLManager.php';
-  use Ratingthomas\SQL;
+  use Ratingthomas\SQLManager\SQL;
   $sql = new SQL\SQL();
 ?>
 ```
